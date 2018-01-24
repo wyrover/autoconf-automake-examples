@@ -16,7 +16,7 @@
 
 9. 执行 ./configure
 10. make
-
+11. make dist 源码打包
 
 **两处需要修改文件的地方**
 
