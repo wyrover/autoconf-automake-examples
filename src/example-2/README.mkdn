@@ -1,0 +1,47 @@
+Autoconf Example 2
+==================
+
+Demo program for [Autoconf Tutorial Part-1][part-2]
+[part-2]: http://www.idryman.org/blog/2016/03/14/autoconf-tutorial-2/
+
+
+SYNOPSIS
+---------
+
+```bash
+autoreconf -vif    # shortcut of --verbose --install --force
+./configure --help # check available options
+# on linux
+./configure
+# on OSX
+./configure --with-x --x-includes=/opt/X11/include/ --x-libraries=/opt/X11/lib
+make
+./x11-example
+```
+
+On OSX, make sure you have [XQuartz][xquartz] installed to run this program.
+
+X11 sample code is provided by Brian Hammond. The link to the [original
+program][original] was broken.  But there's another copy of it located here:
+[Link][example]
+[original]: http://people.terry.uga.edu/bhammond/XIntro
+[example]: http://math.msu.su/~vvb/2course/Borisenko/CppProjects/GWindow/xintro.html
+[xquartz]: http://www.xquartz.org
+
+LICENSE
+-------
+
+Copyright Brian Hammond 1996, Felix Chern 2016.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
