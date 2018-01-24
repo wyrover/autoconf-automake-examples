@@ -2,7 +2,7 @@
 
 在 mingw64 环境下运行
 
-1. autoscan 生成 configure.scan, 改名为 configure.ac
+1. autoscan 生成 configure.scan, 改名为 configure.ac (旧版 configure.in)
 2. 修改 configure.ac
 
 ![](https://github.com/wyrover/autoconf-automake-examples/blob/master/src/example-1/1.png?raw=true)
