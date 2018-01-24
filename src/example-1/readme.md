@@ -10,7 +10,7 @@
 3. 修改完毕后，执行 aclocal，生成 aclocal.m4
 4. 执行 autoconf，生成 configure
 5. 执行 autoheader
-6. 创建 Makefile.am  NEWS README AUTHORS ChangeLog
+6. 创建 Makefile.am  NEWS README AUTHORS ChangeLog (执行./create_makefile_am.sh)
 7. 编辑 Makefile.am
 8. 执行 `automake -a` 生成 `Makefile.in`
 
@@ -23,8 +23,10 @@
 - configure.ac
 - Makefile.am
 
+**Makefile.am**
+
 ```
 AUTOMAKE_OPTIONS=foreign
 bin_PROGRAMS=helloworld
-helloworld_SOURCES=helloworld.c
+helloworld_SOURCES=hello.c
 ```
