@@ -16,3 +16,11 @@
 
 9. 执行 ./configure
 10. make
+
+
+**两处需要修改文件的地方**
+
+- configure.ac
+- Makefile.am
+
+
