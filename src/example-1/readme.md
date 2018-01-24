@@ -30,3 +30,7 @@ AUTOMAKE_OPTIONS=foreign
 bin_PROGRAMS=helloworld
 helloworld_SOURCES=hello.c
 ```
+
+
+实际例子可看 zlib 的 configure.ac 和 Makefile.am 
+和 libpng 的例子，如果想把 zlib 和 ligpng 的编译系统移植到 cmake 上，要研究 Makefile.am 文件
